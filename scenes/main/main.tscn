@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" path="res://scenes/player/player.tscn" id="1"]
 [ext_resource type="Script" path="res://scripts/managers/enemy_spawner.gd" id="2"]
 [ext_resource type="Script" path="res://scenes/ui/level_up_ui.gd" id="3"]
+[ext_resource type="Script" path="res://scenes/ui/title_screen.gd" id="4"]
 
 [node name="Main" type="Node2D" unique_id=1056403561]
 
@@ -42,3 +43,7 @@ script = ExtResource("2")
 
 [node name="LevelUpUI" type="CanvasLayer" parent="."]
 script = ExtResource("3")
+
+[node name="TitleScreen" type="CanvasLayer" parent="."]
+layer = 10
+script = ExtResource("4")

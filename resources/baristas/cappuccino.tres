@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="BaristaData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://resources/baristas/barista_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+display_name = "Cappuccino"
+description = "Mousse protectrice. Equilibre, demarre avec le lait d'avoine."
+color = Color(0.85, 0.75, 0.55, 1)
+sprite_path = "res://assets/sprites/barista_cappuccino.png"
+base_speed = 300.0
+base_max_hp = 12.0
+base_fire_rate = 0.35
+base_espresso_damage = 1.5
+base_espresso_speed = 500.0
+base_espresso_range = 550.0
+start_with_oat_milk = true
+start_with_shuriken = false
